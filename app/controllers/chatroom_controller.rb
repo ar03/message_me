@@ -1,7 +1,7 @@
 class ChatroomController < ApplicationController
 
   def index
-    render 'sessions/new'
+    render 'chatroom/index'
   end
 
   def new
