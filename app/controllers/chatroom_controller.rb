@@ -1,19 +1,7 @@
 class ChatroomController < ApplicationController
 
   def index
-    render 'chatroom/index'
+    @message = Message.all
+    @user = User.all
   end
-
-  def new
-
-  end
-
-  def create
-
-  end
-
-  def update
-    
-  end
-
 end
